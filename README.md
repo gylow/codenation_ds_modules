@@ -1,2 +1,3 @@
 # codenation_ds
-Codenation Data Science course challenges
+
+Codenation Data Science course weekly modules
