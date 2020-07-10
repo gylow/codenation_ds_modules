@@ -79,7 +79,7 @@ def main():
                     'Desvio Padrão': '.std()'}
         calc_choosed = st.selectbox('Escolha o tipo de cálculo para as colunas numéricas:',
                                     ['', 'Média', 'Mediana', 'Desvio Padrão'])
-        if calc_choosed is not '':
+        if calc_choosed != '':
             exec("st.table(df[num_cols]{0})"
                  .format(typeCalc[calc_choosed]))
 
